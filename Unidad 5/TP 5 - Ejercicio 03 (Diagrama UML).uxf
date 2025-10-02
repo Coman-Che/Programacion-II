@@ -1,0 +1,19 @@
+<diagram program="umletino" version="15.1"><zoom_level>10</zoom_level><element><id>UMLClass</id><coordinates><x>250</x><y>120</y><w>310</w><h>80</h></coordinates><panel_attributes>Libro
+--
+- titulo: String
+- isbn: String
+--
++ Libro(String, String, Autor, Editorial)</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>250</x><y>310</y><w>130</w><h>80</h></coordinates><panel_attributes>Autor
+--
+- nombre: String
+- nacionalidad: String
+--
++ Autor(String, String)</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>410</x><y>310</y><w>150</w><h>80</h></coordinates><panel_attributes>Editorial
+--
+- nombre: String
+- direccion: String
+--
++ Editorial(String, String)</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>470</x><y>190</y><w>40</w><h>140</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;-
+m2=1
+</panel_attributes><additional_attributes>10;10;10;120</additional_attributes></element><element><id>Relation</id><coordinates><x>350</x><y>190</y><w>40</w><h>140</h></coordinates><panel_attributes>lt=&lt;-
+m1=1</panel_attributes><additional_attributes>10;120;10;10</additional_attributes></element></diagram>

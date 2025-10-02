@@ -1,0 +1,16 @@
+<diagram program="umletino" version="15.1"><zoom_level>10</zoom_level><element><id>UMLClass</id><coordinates><x>70</x><y>370</y><w>180</w><h>80</h></coordinates><panel_attributes>Contribuyente
+--
+- nombre: String
+- cuil: String
+--
++ Contribuyente(String, String)</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>50</x><y>240</y><w>200</w><h>60</h></coordinates><panel_attributes>Impuesto
+--
+- monto: double
+--
++ Cancion(double, Contribuyente)</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>90</x><y>110</y><w>160</w><h>50</h></coordinates><panel_attributes>Calculadora
+--
+--
++ calcular(Impuesto): void</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>170</x><y>150</y><w>60</w><h>110</h></coordinates><panel_attributes>lt=&lt;.
+m1=1
+&lt;&lt;call&gt;&gt;</panel_attributes><additional_attributes>10;90;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>170</x><y>290</y><w>40</w><h>100</h></coordinates><panel_attributes>lt=&lt;-
+m1=1</panel_attributes><additional_attributes>10;80;10;10</additional_attributes></element></diagram>
